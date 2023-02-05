@@ -37,7 +37,7 @@ def all_data():
         # print()
         # i=i+1
     # inner_links = links.find_all("div",attrs={"data-component-type": 's-search-result'})
-    main_res=[]
+    main_res=[['product ASIN', 'URL', 'Title', 'Price', 'Ratings', 'Number of ratings']]
 
     for link in links:
         try:
